@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+body {
+	font-family: arial;
+}
+
+
+.textoform1 {
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:10px;
+   padding-right:30px;
+}
+
+.entrar {
+	width: 250px;
+   text-align: center;
+   background-color: darkorange;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:60px;
+   padding-right:60px;
+   font-weight: bold;
+   color: white;
+   font-size: 16px;
+}
+
+.texto1 {
+	  padding-top:10px;
+   padding-bottom:10px;
+   padding-left:10px;
+   padding-right:250px;
+}
+
+.texto2 {
+   display: inline;
+   position: absolute;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:5px;
+   padding-right:8px;
+}
+
+.texto3 {
+   display: inline-block;
+   position: relative;
+   left: 250px;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:5px;
+   padding-right:8px;
+}
+
+.opciones {
+   font-weight: bold;
+   display: inline;
+   position: absolute;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:5px;
+   padding-right:120px;
+}
+
+.texto4 {
+   display: inline-block;
+   position: relative;
+   left: 250px;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:5px;
+   padding-right:8px;
+}
+
+.texto5 {
+   display: inline;
+   position: absolute;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:5px;
+   padding-right: 66px;
+}
+
+.texto6 {
+   display: inline-block;
+   position: relative;
+   left: 250px;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:5px;
+   padding-right:8px;
+}
+
+
+
+#titulo3 {
+    margin-left: 50px;
+}
+
+#sub3 {
+	display: inline-block;
+    position: relative;
+	width: 350px;
+}
+
+.texto7 {
+   display: inline-block;
+   position: relative;
+   left: -35px;
+   top: 35px;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:5px;
+   padding-right:66px;
+}
+
+.texto8 {
+   display: inline-block;
+   position: relative;
+   left: -55px;
+   top: 35px;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:5px;
+   padding-right:125px;
+}
+
+.texto9 {
+   display: inline-block;
+   position: relative;
+   left: -77px;
+   top: 35px;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:5px;
+   padding-right:66px;
+}
+
+.texto10 {
+   display: inline-block;
+   position: relative;
+   left: -165px;
+   top: 35px;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:5px;
+   padding-right:66px;
+}
+
+span {
+	text-decoration: underline;
+}
+
+.texto11 {
+	display: inline-block;
+    position: relative;
+}
+
+.cuenta {
+	width: 300px;
+   text-align: center;
+   background-color: green;
+   padding-top:10px;
+   padding-bottom:10px;
+   padding-left:60px;
+   padding-right:60px;
+   font-weight: bold;
+   color: white;
+   font-size: 16px;
+}

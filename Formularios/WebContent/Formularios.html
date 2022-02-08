@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"> <link rel="stylesheet" href="Formularios.css">
+<title>3 Formularios</title>
+</head>
+<body>
+<section>
+<!-- Formulario 1 -->
+<h1>Accede a tu Área Clientes</h1>
+<!-- Pregunta 1 -->
+<h2>Elige tu documento</h2>
+<p><input type="radio" name="docu" value="1" required>DNI o Tarjeta de residencia
+<br><br>
+<input type="radio" name="docu" value="2" required>Pasaporte</p>
+<!-- Pregunta 2 -->
+<h2>Número de documento</h2>
+<p><input  class="textoform1" type="text" name="Rellenar" size="30" placeholder="DNI o Tarjeta de Residencia"></p>
+<!-- Pregunta 3 -->
+<h2>Fecha de nacimiento</h2>
+<p><input type="date" name="fecha"></p>
+<p><input type="checkbox" name="casilla">Recordar</p>
+<p><input class="entrar" type="submit" value="Entrar"></p>
+<br>
+<p>> <span>Acceder con DNI electrónico</span></p>
+<p>> <span>Más información sobre seguridad</span></p>
+</section>
+<br><br>
+<!-- Formulario 2 -->
+<section>
+<h1>Empieza creando tu usuario</h1>
+<p><input  class="texto1" type="text" name="Rellenar" size="30" placeholder="Nombre (como sale en el DNI)"></p>
+<p><input  class="texto2" type="text" name="Rellenar" size="30" placeholder="1º apellido (como sale en el DNI)"></p>
+<p><input  class="texto3" type="text" name="Rellenar" size="30" placeholder="2º apellido (como sale en el DNI)"></p>
+<p><select class="opciones" name="menu">
+  <option value="1">DNI</option>
+  <option value="2">NIF</option>
+  <option value="3">CERT. AEAT</option>
+  </select></p>
+<p><input  class="texto4" type="text" name="Rellenar" size="30" placeholder="Número de documento"></p>
+<p><input  class="texto5" type="number" name="Rellenar" size="30" placeholder="(+34) Móvil"></p>
+<p><input  class="texto6" type="text" name="Rellenar" size="30" placeholder="Email"></p>
+</section>
+<br><br>
+<!-- Formulario 3 -->
+<section>
+<h1 id="titulo3">¿Eres nuevo?</h1>
+<p id="sub3">Regístrate para guardar tu información y hacer tus pedidos de forma fácil y rápida.</p>
+<p>Email<input  class="texto7" type="text" name="Rellenar" size="30" placeholder="Introduce tu email"></p>
+<br>
+<p>Teléfono<input  class="texto8" type="number" name="Rellenar" size="30" placeholder="Tu teléfono"></p>
+<br>
+<p>Contraseña<input  class="texto9" type="text" name="Rellenar" size="30" placeholder="Introduce tu contraseña"></p>
+<br>
+<p>Confirmar tu contraseña<input  class="texto10" type="text" name="Rellenar" size="30" placeholder="Confirmar contraseña"></p>
+<br>
+<p><input type="checkbox" name="casilla">He leído y acepto <span>Política de privacidad</span></p>
+<p><input class="texto11" type="checkbox" name="casilla">Sí, acepto recibir comunicaciones comerciales.</p>
+<br>
+<p><input class="cuenta" type="submit" value="Crea tu cuenta"></p>
+</section>
+</body>
+</html>
